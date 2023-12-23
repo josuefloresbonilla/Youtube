@@ -1,0 +1,100 @@
+body {
+    background-color: #000000;
+    animation: cambioColor 5s infinite alternate;
+  }
+  
+  @keyframes cambioColor {
+    from {
+      background-color: #000000;
+    }
+    to {
+      background-color: #375a8b;
+    }
+  }
+  #hero {
+    min-height: 100vh;
+    position: relative;
+  }
+
+
+  .container {
+    display: flex;
+    align-items: flex-start; 
+    padding: 20px;
+  }
+  
+  .img {
+    margin-right: 20px;
+     
+  }
+  
+  .img img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    transform: rotate(45deg);
+   
+  }
+  
+ h1{
+    font-size: 350%;
+   
+    color: #FEFC18;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    z-index: 2;
+ }
+
+ .Pene{
+    font-size: large;
+   
+    color: #FEFC18;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    right: 165px;
+    top: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+ h3{
+
+    width: 590px;
+    height: 10px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 100px; 
+    top: 240px; 
+    font-size: larger;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ .boton {
+
+  text-align: right;
+  margin-top: 100px;
+  position: relative;
+  top: 200px;
+  right: 165px;
+}
+
+.boton video {
+  width: 450px; /* Ancho del video */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+
+
+.texto-copiar {
+  position: relative;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 700px;
+  border-style: ridge;
+  margin-top: -20px;
+  user-select: all;
+  background-color: #e6a10e;
+}
+
+
